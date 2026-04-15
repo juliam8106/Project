@@ -1,0 +1,6 @@
+Mary Foley,40,72
+Jack Smith,33,91
+Alison Adams,42,27
+Adam Howe,55,66
+Anna Graham,-1,80
+Tony Sweeney,-1,-1
