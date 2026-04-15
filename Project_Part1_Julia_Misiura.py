@@ -1,6 +1,10 @@
 # Julia Misiura
 # Student Results System Project
 
+import useful_functions
+from useful_functions import get_positive_int
+
+
 def main():
     load_data()
     name_list, exam1_list, exam2_list = load_data()
@@ -25,7 +29,7 @@ def show_menu(name_list, exam1_list, exam2_list):
     print("MENU: ")
     while True:
         print("1. Show Results of Each Exam\n2. Missing Students\n3. Top Marks\n4. -\n5. -\n6. Exit")
-        choice = int(input("Enter Choice: "))
+        choice = get_positive_int("Enter choice:")
         print()
         if choice == 1:
             show_results(name_list, exam1_list, exam2_list)
